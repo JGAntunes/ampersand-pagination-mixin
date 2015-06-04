@@ -13,7 +13,8 @@ module.exports ={
     assign(data, options.data);
     data.skip = data.skip ? data.skip : 0;
     data.limit = data.limit ? data.limit : 10;
-    this.fetch(data);
+    options.data = data;
+    this.fetch(options);
     data.skip += data.limit;
     this.data = data;
   }
