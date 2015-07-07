@@ -24,3 +24,12 @@ Example:
 ```
 
 To use this collection with a infinite scroll view use [ampersand-infinite-scroll](https://github.com/JGAntunes/ampersand-infinite-scroll) as it works out of the box with it.
+
+## credits
+
+Created by [@JGAntunes](http://github.com/JGAntunes), with the support of [@SINFO](http://github.com/sinfo).
+
+
+## license
+
+MIT
