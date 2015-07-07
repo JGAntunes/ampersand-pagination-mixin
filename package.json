@@ -1,6 +1,6 @@
 {
   "name": "ampersand-pagination-mixin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A simple mixin to be used with ampersand-rest-collection, to perform paginated requests",
   "main": "ampersand-pagination-mixin.js",
   "scripts": {
