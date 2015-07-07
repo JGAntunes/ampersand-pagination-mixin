@@ -1,7 +1,7 @@
 {
   "name": "ampersand-pagination-mixin",
   "version": "0.1.0",
-  "description": "A simple mixin to be used with ampersand collectio, to perform paginated requests",
+  "description": "A simple mixin to be used with ampersand-rest-collection, to perform paginated requests",
   "main": "ampersand-pagination-mixin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +18,8 @@
     "ampersand",
     "pagination",
     "request",
+    "rest",
+    "limit",
     "collection"
   ],
   "author": "Joao Antunes <j.goncalo.antunes@gmail.com> (http://github.com/JGAntunes)",
