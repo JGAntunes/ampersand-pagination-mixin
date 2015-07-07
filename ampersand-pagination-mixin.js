@@ -1,12 +1,12 @@
-/*$AMPERSAND_VERSION*/
+/* $AMPERSAND_VERSION */
 var assign = require('lodash.assign');
 
-module.exports ={
-  fetchPage: function(options){
+var mixin = {
+  fetchPage: function (options) {
     options || (options = {remove: false, merge: false, add: true});
     options.data = options.data || {};
     var data = this.data;
-    if(options.reset){
+    if (options.reset) {
       options = {};
       data.skip = 0;
     }
@@ -19,3 +19,5 @@ module.exports ={
     this.data = data;
   }
 };
+
+exports = module.exports = mixin;
